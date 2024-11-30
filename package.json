@@ -11,12 +11,10 @@
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
     "@types/node": "22.10.1",
-    "@types/xmldom": "0.1.34",
     "tsx": "4.19.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "jsdom": "^25.0.1",
-    "xmldom": "0.6.0"
+    "jsdom": "^25.0.1"
   }
 }
