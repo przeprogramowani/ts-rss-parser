@@ -1,7 +1,7 @@
 import {RssFeedParser} from "./RssFeedParser";
 import {writeFeedToFile} from "./utils/fileUtils";
 import path from "path";
-export type {BaseFeedItem, RssFeed, BlogPost} from "./types/RssTypes";
+export type {BaseFeedItem, RssFeed} from "./types/RssTypes";
 
 const feedUrl = "https://anchor.fm/s/e2cb03d0/podcast/rss";
 const parser = new RssFeedParser();

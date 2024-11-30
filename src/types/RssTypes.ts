@@ -11,9 +11,3 @@ export type RssFeed<T extends BaseFeedItem> = {
   link: string;
   items: T[];
 };
-
-// Example custom feed item type
-export interface BlogPost extends BaseFeedItem {
-  author?: string;
-  category?: string[];
-}
