@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:build": "typedoc src/index.ts --out docs",
+    "docs:serve": "open docs/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "@types/jsdom": "^21.1.7",
     "@types/node": "22.10.1",
     "tsx": "4.19.2",
+    "typedoc": "^0.27.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
